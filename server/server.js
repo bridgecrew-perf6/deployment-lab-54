@@ -8,9 +8,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../index.css'))
-// })
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../index.css'))
+})
 
 const port = process.env.PORT || 4200
 
